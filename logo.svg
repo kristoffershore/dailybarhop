@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" role="img" aria-label="Daily Bar Hop logo">
+  <style>
+    .text { font-family: 'Playfair Display', serif; font-weight: 700; fill: #ffffff; }
+    .pint { fill: none; stroke: #ffffff; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+    .foam { fill: #ffffff; }
+  </style>
+  <!-- Pint glass icon -->
+  <g transform="translate(20,15)">
+    <path class="pint" d="M20 10 h40 l-10 80 h-20z"/>
+    <ellipse class="foam" cx="40" cy="10" rx="20" ry="8" />
+  </g>
+  <!-- Brand text -->
+  <text x="100" y="75" font-size="48" class="text">Daily Bar Hop</text>
+</svg>
